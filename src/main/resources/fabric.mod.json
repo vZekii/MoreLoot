@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "MoreLoot",
+  "version": "${version}",
+  "name": "MoreLoot",
+  "description": "A mod to extend upon vanilla, with more stuff to grind for",
+  "authors": [
+    "vzekii"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/MoreLoot/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "moreloot.b.client.BClient"
+    ],
+    "main": [
+      "moreloot.b.B"
+    ]
+  },
+  "mixins": [
+    "MoreLoot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17"
+  }
+}
