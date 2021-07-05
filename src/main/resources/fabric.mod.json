@@ -1,22 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "MoreLoot",
+  "id": "moreloot",
   "version": "${version}",
   "name": "MoreLoot",
-  "description": "A mod to extend upon vanilla, with more stuff to grind for",
-  "authors": [
-    "vzekii"
-  ],
+  "description": "A mod to extend upon vanilla, with more stuff to grind for.",
+  "authors": ["vzekii"],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/MoreLoot/icon.png",
+  "icon": "assets/moreloot/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "moreloot.b.client.BClient"
-    ],
+    "client": [],
     "main": [
-      "moreloot.b.B"
+      "vzekii.moreloot.MoreLoot"
     ]
   },
   "mixins": [
