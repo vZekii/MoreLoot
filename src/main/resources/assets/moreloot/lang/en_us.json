@@ -2,5 +2,8 @@
   "itemGroup.moreloot.creative_tab": "More Loot",
 
   "item.moreloot.spider_fang": "Spider fang",
-  "item.moreloot.spider_fang.tooltip": "A fang from a spider"
+  "item.moreloot.spider_fang.tooltip": "A fang from a spider",
+
+  "item.moreloot.poison_gland": "Poison Gland",
+  "item.moreloot.poison_gland.tooltip": "The gland that a Cave spider uses for poison"
 }

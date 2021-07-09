@@ -17,7 +17,7 @@ public class MoreLoot implements ModInitializer {
 
     //creative tab
     public static final ItemGroup MORELOOT_GROUP = FabricItemGroupBuilder.build(
-            new Identifier("moreloot", "moreloot_group"),
+            new Identifier("moreloot", "creative_tab"),
             () -> new ItemStack(Blocks.ZOMBIE_HEAD));
 
     @Override
